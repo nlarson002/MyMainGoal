@@ -11,7 +11,7 @@ public sealed class FileWatcherService : IDisposable
 
     public void Start()
     {
-        watcher = new FileSystemWatcher(@"C:\Users\NickT\Desktop");
+        watcher = new FileSystemWatcher(@"C:\Users\mytea\Desktop");
 
         watcher.NotifyFilter = NotifyFilters.Attributes
             | NotifyFilters.CreationTime
